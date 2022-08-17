@@ -21,4 +21,12 @@ public abstract class Duck {
         System.out.println("I can swim");
     }
 
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
+
 }
